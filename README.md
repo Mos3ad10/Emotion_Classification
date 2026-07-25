@@ -223,30 +223,6 @@ The notebook saves:
 - Stratification and dynamic undersampling settings
 - Final comparison results
 
-Checkpoints are written to:
-
-```text
-checkpoints/
-```
-
-Large model and embedding files are ignored by Git.
-
-## Run
-
-Activate the `subway_rl` environment and install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Open:
-
-```text
-Emotion Classification.ipynb
-```
-
-Run the notebook from top to bottom.
-
 ## Source
 
 GoEmotions was introduced by Demszky et al. in:
