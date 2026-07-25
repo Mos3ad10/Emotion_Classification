@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+
+.ipynb_checkpoints/
+.vscode/
+
+*.log
+*.out.log
+*.err.log
+
+# Downloaded and generated datasets.
+data/*
+!data/.gitkeep
+hf_cache/
+
+# Large pre-trained embeddings.
+embeddings/*
+!embeddings/.gitkeep
+
+# Model weights and Trainer outputs.
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Generated README images.
+README_assets/*
+!README_assets/.gitkeep
