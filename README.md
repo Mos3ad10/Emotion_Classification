@@ -167,6 +167,26 @@ prints the complete per-class classification report for every model.
 For reference, the earlier non-sampled DistilBERT achieved `0.7966` accuracy
 and `0.7063` macro F1 on the same official test split.
 
+## Charts
+
+### Dataset Distribution
+
+![GoEmotions six-class distribution before split](figures/goemotions_six_before_split_distribution.png)
+
+![GoEmotions six-class train validation test distribution](figures/goemotions_six_split_distribution.png)
+
+### Model Comparison
+
+![Model confusion matrices](figures/model_confusion_matrices.png)
+
+### Attention Heatmaps
+
+![Attention heatmap for birthday joy example](figures/attention_heatmap_birthday_joy.png)
+
+![Attention heatmap for nervous fear example](figures/attention_heatmap_nervous_fear.png)
+
+![Attention heatmap for secret surprise example](figures/attention_heatmap_secret_surprise.png)
+
 ## Attention Explainability
 
 The BiLSTM + Attention model returns one attention weight per input token. The
